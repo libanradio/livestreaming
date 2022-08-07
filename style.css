@@ -47,7 +47,7 @@ a,a:hover,a:visited{color:#fff;text-decoration:none;}
 #simp ul li:last-child{padding-bottom:13px;}
 #simp ul li:nth-child(odd){background:#0e1621;}
 #simp ul li:hover{background:#242f3d;}
-#simp ul li.simp-active{background:#fff;color:#fff;}
+#simp ul li.simp-active{background:#eb2026;color:#eb2026;}
 #simp ul li .simp-desc{font-size:90%;opacity:.5;margin-left:5px;}
 /* playlist scrollbar */
 #simp ul{overflow-y:auto;overflow-x:hidden;scrollbar-color:#73797f #2f3841;}
