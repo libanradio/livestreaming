@@ -17,16 +17,16 @@ a,a:hover,a:visited{color:#fff;text-decoration:none;}
 #simp .simp-album .simp-title{font-size:120%;font-weight:bold;}
 #simp .simp-album .simp-artist{font-size:90%;color:#fff;}
 #simp .simp-controls{padding:15px;}
-#simp .simp-controls button{font-size:130%;width:32px;height:32px;background:none;color:#ddd;padding:7px;cursor:pointer;border:0;border-radius:3px;}
-#simp .simp-controls button[disabled]{color:#636469;cursor:initial;}
-#simp .simp-controls button:not([disabled]):hover{background:#4082bc;color:#fff;}
+#simp .simp-controls button{font-size:130%;width:32px;height:32px;background:none;color:#fff;padding:7px;cursor:pointer;border:0;border-radius:3px;}
+#simp .simp-controls button[disabled]{color:#fff;cursor:initial;}
+#simp .simp-controls button:not([disabled]):hover{background:#;color:#fff;}
 #simp .simp-controls .simp-prev,#simp .simp-controls .simp-next{font-size:100%;}
 #simp .simp-controls .simp-tracker,#simp .simp-controls .simp-volume{flex:1;margin-left:10px;position:relative;}
 #simp .simp-controls .simp-buffer {position:absolute;top:50%;right:0;left:0;height:5px;margin-top:-2.5px;border-radius:100px;}
 #simp .simp-controls .simp-loading .simp-buffer {-webkit-animation:audio-progress 1s linear infinite;animation:audio-progress 1s linear infinite;background-image: linear-gradient(-45deg, #fff 25%, transparent 25%, transparent 50%, #fff 50%, #fff 75%, transparent 75%, transparent);background-repeat:repeat-x;background-size:25px 25px;color:transparent;}
 #simp .simp-controls .simp-time,#simp .simp-controls .simp-others{margin-left:10px;}
-#simp .simp-controls .simp-volume{max-width:110px;}
-#simp .simp-controls .simp-volume .simp-mute{margin-right:5px;}
+#simp .simp-controls .simp-volume{max-width:50px;}
+#simp .simp-controls .simp-volume .simp-mute{margin-right:60px;}
 #simp .simp-controls .simp-others .simp-active{background:#eb2026;}
 #simp .simp-controls .simp-others .simp-shide button{font-size:100%;padding:0;width:24px;height:14px;display:block;}
 #simp .simp-controls input[type=range]{-webkit-appearance:none;background:transparent;height:19px;margin:0;width:100%;display:block;position:relative;z-index:2;}
@@ -55,7 +55,7 @@ a,a:hover,a:visited{color:#fff;text-decoration:none;}
 #simp ul::-webkit-scrollbar{width:6px;background-color:#2f3841;}
 #simp ul::-webkit-scrollbar-thumb{background-color:#73797f;}
 /* progress animation */
-@-webkit-keyframes audio-progress{to{background-position:25px 0;}}
+@-webkit-keyframes audio-progress{to{background-position:55px 0;}}
 @keyframes audio-progress{to{background-position:25px 0;}}
 /* mobile */
 @media screen and (max-width:480px) {
